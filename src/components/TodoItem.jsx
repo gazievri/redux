@@ -10,7 +10,7 @@ const TodoItem = ({ id, text, completed }) => {
   const setTodoComplete = (id) => dispatch(toggleTodoComplete({ id }));
 
   return (
-    <li>
+    <li className='todoitem'>
       <input
         type="checkbox"
         checked={completed}

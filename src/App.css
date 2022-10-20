@@ -21,3 +21,22 @@ li {
 input:checked + span {
   text-decoration: line-through;
 }
+
+.todolist {
+  margin: 1rem auto 0;
+  padding: 1rem;
+  width: 12rem;
+  min-height: 10rem;
+  border: 1px solid grey;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+}
+
+.todoitem {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
